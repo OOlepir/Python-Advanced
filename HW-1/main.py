@@ -20,7 +20,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def simple_hallo():
+def simple_hello():
     return "Hello, Flask!"
 
 @app.route('/user/<name>')
